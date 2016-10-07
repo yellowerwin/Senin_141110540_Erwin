@@ -1,3 +1,0 @@
-Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Satu\bin\Debug\Satu.exe.config
-Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Satu\obj\Debug\Satu.exe
-Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Satu\obj\Debug\Satu.pdb
