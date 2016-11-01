@@ -1,0 +1,10 @@
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\bin\Debug\Latihan_3_1.exe.config
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\bin\Debug\Latihan_3_1.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\bin\Debug\Latihan_3_1.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\obj\Debug\Latihan_3_1.csprojResolveAssemblyReference.cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\obj\Debug\Latihan_3_1.Form1.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\obj\Debug\Latihan_3_1.Properties.Resources.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\obj\Debug\Latihan_3_1.csproj.GenerateResource.Cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\obj\Debug\Latihan_3_1.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\obj\Debug\Latihan_3_1.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_3_1\bin\Debug\d.exe.config

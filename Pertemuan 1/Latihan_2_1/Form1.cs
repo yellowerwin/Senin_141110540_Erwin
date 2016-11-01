@@ -95,11 +95,12 @@ namespace Latihan_2_1
             int bulan = bulanUpDown.SelectedIndex + 1;
             int tanggal = tanggalUpDown.SelectedIndex + 1;
             monthCalendar1.AddAnnuallyBoldedDate(new DateTime(2016, bulan, tanggal));
+
             monthCalendar1.UpdateBoldedDates();
         }
 
-        private void buttonDelete_Click(object sender, EventArgs e)
-        {
+            private void buttonDelete_Click(object sender, EventArgs e)
+            {
             int bulan = bulanUpDown.SelectedIndex + 1;
             int tanggal = tanggalUpDown.SelectedIndex + 1;
             monthCalendar1.RemoveAnnuallyBoldedDate(new DateTime(2016, bulan, tanggal));
