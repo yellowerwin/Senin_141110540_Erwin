@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_2_1", "Latihan_2_1\Latihan_2_1.csproj", "{BCBA0575-5889-4B97-B698-2382A8AFB3FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_1_1", "Latihan_1_1\Latihan_1_1.csproj", "{6BC58BCD-4C9E-4740-9CAC-492EADABD215}"
@@ -10,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_3_1", "Latihan_3_1\Latihan_3_1.csproj", "{0219D5DC-7F78-46E1-A9CE-87F1A23AA191}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_4_1", "Latihan_4_1\Latihan_4_1.csproj", "{4B2112C5-0492-47AC-9856-BD53D4FD7463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_5_1", "Latihan_5_1\Latihan_5_1.csproj", "{4D0DAA16-F0CF-4E44-99A2-B1D18CEFD49B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +33,10 @@ Global
 		{4B2112C5-0492-47AC-9856-BD53D4FD7463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2112C5-0492-47AC-9856-BD53D4FD7463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2112C5-0492-47AC-9856-BD53D4FD7463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0DAA16-F0CF-4E44-99A2-B1D18CEFD49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0DAA16-F0CF-4E44-99A2-B1D18CEFD49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0DAA16-F0CF-4E44-99A2-B1D18CEFD49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0DAA16-F0CF-4E44-99A2-B1D18CEFD49B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
