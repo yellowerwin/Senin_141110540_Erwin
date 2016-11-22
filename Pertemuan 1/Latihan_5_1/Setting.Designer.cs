@@ -33,9 +33,9 @@
             treeNode5});
             this.treeEditor = new System.Windows.Forms.TreeView();
             this.panelSetting = new System.Windows.Forms.Panel();
-            this.cmdSave = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.cbColor = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmdSave = new System.Windows.Forms.Button();
             this.panelSetting.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,15 +64,15 @@
             this.panelSetting.TabIndex = 2;
             this.panelSetting.Visible = false;
             // 
-            // cmdSave
+            // cbColor
             // 
-            this.cmdSave.Location = new System.Drawing.Point(164, 309);
-            this.cmdSave.Name = "cmdSave";
-            this.cmdSave.Size = new System.Drawing.Size(75, 23);
-            this.cmdSave.TabIndex = 0;
-            this.cmdSave.Text = "Save";
-            this.cmdSave.UseVisualStyleBackColor = true;
-            this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
+            this.cbColor.FormattingEnabled = true;
+            this.cbColor.Location = new System.Drawing.Point(14, 58);
+            this.cbColor.Name = "cbColor";
+            this.cbColor.Size = new System.Drawing.Size(225, 21);
+            this.cbColor.TabIndex = 2;
+            this.cbColor.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.cbColor_DrawItem);
+            this.cbColor.SelectedIndexChanged += new System.EventHandler(this.cbBgColor_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -83,15 +83,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Background Color : ";
             // 
-            // cbColor
+            // cmdSave
             // 
-            this.cbColor.FormattingEnabled = true;
-            this.cbColor.Location = new System.Drawing.Point(14, 58);
-            this.cbColor.Name = "cbColor";
-            this.cbColor.Size = new System.Drawing.Size(225, 21);
-            this.cbColor.TabIndex = 2;
-            this.cbColor.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.cbColor_DrawItem);
-            this.cbColor.SelectedIndexChanged += new System.EventHandler(this.cbBgColor_SelectedIndexChanged);
+            this.cmdSave.Location = new System.Drawing.Point(164, 309);
+            this.cmdSave.Name = "cmdSave";
+            this.cmdSave.Size = new System.Drawing.Size(75, 23);
+            this.cmdSave.TabIndex = 0;
+            this.cmdSave.Text = "Save";
+            this.cmdSave.UseVisualStyleBackColor = true;
+            this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
             // 
             // Form2
             // 

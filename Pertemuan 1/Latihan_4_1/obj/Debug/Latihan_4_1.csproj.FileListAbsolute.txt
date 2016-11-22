@@ -6,3 +6,4 @@ Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_4_1\o
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_4_1\obj\Debug\Latihan_4_1.csproj.GenerateResource.Cache
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_4_1\obj\Debug\Latihan_4_1.exe
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_4_1\obj\Debug\Latihan_4_1.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_4_1\obj\Debug\Latihan_4_1.csprojResolveAssemblyReference.cache

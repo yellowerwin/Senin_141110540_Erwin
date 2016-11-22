@@ -386,5 +386,96 @@ namespace Latihan_5_1
         }
 
         public Color textboxparent { get; set; }
+        
+        private void newToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (perubahan_text)
+            {
+                SaveFileDialog save = new SaveFileDialog();
+                save.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*|Rich Textbox Format (*.rtf)|*.rtf";
+                save.FilterIndex = 3;
+                save.RestoreDirectory = true;
+
+                DialogResult result = MessageBox.Show("Save changes ?", "My Application", MessageBoxButtons.YesNoCancel);
+                if (result == DialogResult.Yes)
+                {
+                    if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK && save.FileName.Length > 0)
+                    {
+                        richTextBox.SaveFile(save.FileName, RichTextBoxStreamType.PlainText);
+                    }
+                    ActiveForm.Hide();
+                    Form1 newform = new Form1();
+                    newform.ShowDialog();
+                }
+                else if (result == DialogResult.No)
+                {
+                    ActiveForm.Hide();
+                    Form1 newform = new Form1();
+                    newform.ShowDialog();
+                }
+            }
+            else
+            {
+                ActiveForm.Hide();
+                Form1 newform = new Form1();
+                newform.ShowDialog();
+            }
+        }
+
+        private void openToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            OpenFileDialog open = new OpenFileDialog();
+            open.InitialDirectory = "c:\\";
+            open.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*|Rich Textbox Format (*.rtf)|*.rtf";
+            open.FilterIndex = 3;
+            open.RestoreDirectory = true;
+
+            if (open.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                richTextBox.LoadFile(open.FileName, RichTextBoxStreamType.PlainText);
+            }
+        }
+
+        private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            SaveFileDialog save = new SaveFileDialog();
+            save.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*|Rich Textbox Format (*.rtf)|*.rtf";
+            save.FilterIndex = 3;
+            save.RestoreDirectory = true;
+
+            if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK && save.FileName.Length > 0)
+            {
+                richTextBox.SaveFile(save.FileName, RichTextBoxStreamType.PlainText);
+            }
+        }
+
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (perubahan_text)
+            {
+                SaveFileDialog save = new SaveFileDialog();
+                save.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*|Rich Textbox Format (*.rtf)|*.rtf";
+                save.FilterIndex = 3;
+                save.RestoreDirectory = true;
+
+                DialogResult result = MessageBox.Show("Save changes ?", "My Application", MessageBoxButtons.YesNoCancel);
+                if (result == DialogResult.Yes)
+                {
+                    if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK && save.FileName.Length > 0)
+                    {
+                        richTextBox.SaveFile(save.FileName, RichTextBoxStreamType.PlainText);
+                    }
+                }
+                else if (result == DialogResult.No)
+                {
+                    Application.ExitThread();
+                }
+            }
+            else
+            {
+                Application.Exit();
+            }
+        
+        }
     }
 }

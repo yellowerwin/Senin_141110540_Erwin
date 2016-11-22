@@ -1,0 +1,9 @@
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\bin\Debug\volleyball_problem.exe.config
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\bin\Debug\volleyball_problem.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\bin\Debug\volleyball_problem.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.csprojResolveAssemblyReference.cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.Form1.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.Properties.Resources.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.csproj.GenerateResource.Cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.pdb
