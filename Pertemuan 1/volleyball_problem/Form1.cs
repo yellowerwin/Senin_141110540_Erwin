@@ -20,9 +20,9 @@ namespace volleyball_problem
         private void btnhitung_Click(object sender, EventArgs e)
         {
             
-            long a = Convert.ToInt64(txta.Text);
+            long a = Convert.ToInt64(Txt1.Text);
             
-            long b = Convert.ToInt64(txtb.Text);
+            long b = Convert.ToInt64(Txt2.Text);
             long HasilAkhir = -1;
 
             // cek nilai terbesar (harus a) 
@@ -33,63 +33,52 @@ namespace volleyball_problem
                 a = c;
             }
 
-            if ((a == 25 && b < 24) || (b == 25 && a < 24) || (a >= 24 && b >= 24 && a - b == 2))
+            if ((a == 25 && b < 24))
             {
                 long max = a + b - 1;
                 long min = b;
-                long[] Perkali = new long[min];
-                long[] Pembagi = new long[min];
 
-                // masukan nilai ke array
-                int index = 0;
-                for (long i = max; i > max - min; i--)
-                {
-                    Perkali[index] = i;
-                    index++;
-                }
-                index = 0;
-                for (long i = min; i >= 1; i--)
-                {
-                    Pembagi[index] = i;
-                    index++;
-                }
-
-                // Filter Array
-                for (int i = 0; i < min; i++)
-                {
-                    for (int j = 0; j < min; j++)
-                    {
-                        if (Pembagi[i] == 1)
-                        {
-                            break;
-                        }
-                        else
-                        {
-                            if (Perkali[j] % Pembagi[i] == 0)
-                            {
-                                Perkali[j] /= Pembagi[i];
-                                Pembagi[i] /= Pembagi[i];
-                            }
-                        }
-                    }
-                }
-
-
+                //Hitung
                 HasilAkhir = 1;
-                for (int i = 0; i < min; i++)
+                for (int i = 1; i <= min; i++)
                 {
-                    HasilAkhir *= Perkali[i];
-                    if (HasilAkhir > 1000000007)
-                        HasilAkhir %= 1000000007;
+                    HasilAkhir *= max;
+                    HasilAkhir /= i;
+                    max--;
+
                 }
+                if (HasilAkhir > 1000000007)
+                    HasilAkhir %= 1000000007;
+            }
+            else if (a >= 24 && b >= 24 && a - b == 2)
+            {
+                long max = a + b - 49;
+                long min = b - 24;
+
+                //Hitung
+                HasilAkhir = 603457371;
+                for (int i = 1; i <= min; i++)
+                {
+                    HasilAkhir *= max;
+                    HasilAkhir /= i;
+                    max--;
+
+                }
+                if (HasilAkhir > 1000000007)
+                    HasilAkhir %= 1000000007;
             }
             else
             {
                 HasilAkhir = 0;
             }
 
-            txthasil.Text = HasilAkhir.ToString();
+            TxtHasil.Text = HasilAkhir.ToString();
             
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
