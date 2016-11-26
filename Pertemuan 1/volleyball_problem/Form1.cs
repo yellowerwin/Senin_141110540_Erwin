@@ -12,6 +12,30 @@ namespace volleyball_problem
 {
     public partial class Form1 : Form
     {
+        static long pangkat(long x, long y)
+        {
+            if (y == 0)
+            {
+                return 1;
+            }
+            if (y == 1)
+            {
+                return x;
+            }
+            if (x == 0)
+            {
+                return 0;
+            }
+            long setengah = pangkat(x, y / 2);
+            if (y % 2 == 0)
+            {
+                return (setengah * setengah) % 1000000007;
+            }
+            else
+            {
+                return (((setengah * setengah) % 1000000007) * x) % 1000000007;
+            }
+        }
         public Form1()
         {
             InitializeComponent();
@@ -56,16 +80,8 @@ namespace volleyball_problem
                 long min = b - 24;
 
                 //Hitung
-                HasilAkhir = 603457371;
-                for (int i = 1; i <= min; i++)
-                {
-                    HasilAkhir *= max;
-                    HasilAkhir /= i;
-                    max--;
-
-                }
-                if (HasilAkhir > 1000000007)
-                    HasilAkhir %= 1000000007;
+                HasilAkhir = 603457371 * pangkat(2, a - 26) % 1000000007;
+                
             }
             else
             {
