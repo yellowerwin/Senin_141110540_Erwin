@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using System.Data;
+
 namespace Latihan_6_1
 {
     class Connection
@@ -73,7 +75,7 @@ namespace Latihan_6_1
             conn.Open();  
             MySqlDataAdapter MyAdapter = new MySqlDataAdapter();
             MyAdapter.SelectCommand = MyCommand2;
-            System.Data.DataTable dTable = new DataTable();
+            DataTable dTable = new DataTable();
             MyAdapter.Fill(dTable);
             dataGridView1.DataSource = dTable; // here i have assign dTable object to the dataGridView1 object to display data.               
             conn.Close();  
