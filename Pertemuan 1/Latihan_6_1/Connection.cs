@@ -27,12 +27,12 @@ namespace Latihan_6_1
             string Query = "INSERT INTO String (Input) values('" + input + "');";
             MySqlCommand cmd = new MySqlCommand(Query, conn);
 
-            conn.Open();
             MySqlDataReader MyReader2;
             MyReader2 = cmd.ExecuteReader();
 
             conn.Close();
         }
+
 
         public void Delete(int ID)
         {
@@ -42,11 +42,25 @@ namespace Latihan_6_1
 
             MySqlCommand cmd = new MySqlCommand(Query, conn);
             
-            conn.Open();
             MySqlDataReader MyReader2;
             MyReader2 = cmd.ExecuteReader();
 
             conn.Close();
+        }
+
+        public int count()
+        {
+            
+            Connect();
+
+            string Query = "SELECT COUNT(*) String;";
+
+            MySqlCommand cmd = new MySqlCommand(Query, conn);
+
+            int count = (int)cmd.ExecuteScalar();
+            conn.Close();
+            return count;
+
         }
 
         public void UpdateData(int ID, string input)
@@ -57,14 +71,13 @@ namespace Latihan_6_1
 
             MySqlCommand cmd = new MySqlCommand(Query, conn);
             
-            conn.Open();
             MySqlDataReader MyReader2;
             MyReader2 = cmd.ExecuteReader();
 
             conn.Close();
         }
-
-        public void DisplayData()
+/*
+        public void DisplayData(object x)
         {
             Connect();
 
@@ -72,13 +85,14 @@ namespace Latihan_6_1
 
             MySqlCommand MyCommand2 = new MySqlCommand(Query, conn);
 
-            conn.Open();  
+            conn.Open();
             MySqlDataAdapter MyAdapter = new MySqlDataAdapter();
             MyAdapter.SelectCommand = MyCommand2;
             DataTable dTable = new DataTable();
             MyAdapter.Fill(dTable);
-            dataGridView1.DataSource = dTable; // here i have assign dTable object to the dataGridView1 object to display data.               
+            x.DataSource = dTable;
             conn.Close();  
         }
+*/
     }
 }

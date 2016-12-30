@@ -1,0 +1,14 @@
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\bin\Debug\Latihan_6_1.exe.config
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.csprojResolveAssemblyReference.cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.Delete.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.Form1.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.Insert.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.Properties.Resources.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.Update.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.csproj.GenerateResource.Cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\bin\Debug\Latihan_6_1.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\bin\Debug\Latihan_6_1.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\bin\Debug\MySql.Data.dll
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\bin\Debug\MySql.Data.xml
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_6_1\obj\Debug\Latihan_6_1.pdb

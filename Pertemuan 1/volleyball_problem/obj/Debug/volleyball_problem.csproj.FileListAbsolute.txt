@@ -7,3 +7,4 @@ Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_pr
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.csproj.GenerateResource.Cache
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.exe
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\obj\Debug\volleyball_problem.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\volleyball_problem\bin\Debug\MySql.Data.dll
