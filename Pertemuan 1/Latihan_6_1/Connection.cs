@@ -61,5 +61,22 @@ namespace Latihan_6_1
 
             conn.Close();
         }
+
+        public void DisplayData()
+        {
+            Connect();
+
+            string Query = "SELECT * FROM String;";
+
+            MySqlCommand MyCommand2 = new MySqlCommand(Query, conn);
+
+            conn.Open();  
+            MySqlDataAdapter MyAdapter = new MySqlDataAdapter();
+            MyAdapter.SelectCommand = MyCommand2;
+            System.Data.DataTable dTable = new DataTable();
+            MyAdapter.Fill(dTable);
+            dataGridView1.DataSource = dTable; // here i have assign dTable object to the dataGridView1 object to display data.               
+            conn.Close();  
+        }
     }
 }
