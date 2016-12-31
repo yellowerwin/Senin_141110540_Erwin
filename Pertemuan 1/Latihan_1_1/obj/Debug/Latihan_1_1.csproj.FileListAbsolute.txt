@@ -1,3 +1,12 @@
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Satu\bin\Debug\Satu.exe.config
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Satu\obj\Debug\Satu.exe
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Satu\obj\Debug\Satu.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\bin\Debug\Latihan_1_1.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\bin\Debug\Latihan_1_1.pdb
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\obj\Debug\Latihan_1_1.csprojResolveAssemblyReference.cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\obj\Debug\Satu.Form1.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\obj\Debug\Latihan_1_1.Properties.Resources.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\obj\Debug\Latihan_1_1.csproj.GenerateResource.Cache
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\obj\Debug\Latihan_1_1.exe
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_1_1\obj\Debug\Latihan_1_1.pdb

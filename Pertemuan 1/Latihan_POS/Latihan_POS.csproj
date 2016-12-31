@@ -48,49 +48,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Transaksi.cs">
+    <Compile Include="Class\Barang.cs" />
+    <Compile Include="Class\Customer.cs" />
+    <Compile Include="Class\Supplier.cs" />
+    <Compile Include="Class\Connection.cs" />
+    <Compile Include="Form\Transaksi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transaksi.Designer.cs">
+    <Compile Include="Form\Transaksi.Designer.cs">
       <DependentUpon>Transaksi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Edit.cs">
+    <Compile Include="Form\Edit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Edit.Designer.cs">
+    <Compile Include="Form\Edit.Designer.cs">
       <DependentUpon>Edit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete.cs">
+    <Compile Include="Form\Delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Delete.Designer.cs">
+    <Compile Include="Form\Delete.Designer.cs">
       <DependentUpon>Delete.cs</DependentUpon>
     </Compile>
-    <Compile Include="List.cs">
+    <Compile Include="Form\List.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="List.Designer.cs">
+    <Compile Include="Form\List.Designer.cs">
       <DependentUpon>List.cs</DependentUpon>
     </Compile>
-    <Compile Include="Register.cs">
+    <Compile Include="Form\Register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Register.Designer.cs">
+    <Compile Include="Form\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="Index.cs">
+    <Compile Include="Form\Index.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Index.Designer.cs">
+    <Compile Include="Form\Index.Designer.cs">
       <DependentUpon>Index.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pembelian.cs" />
+    <Compile Include="Penjualan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Delete.resx">
+    <EmbeddedResource Include="Form\Delete.resx">
       <DependentUpon>Delete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Edit.resx">
+    <EmbeddedResource Include="Form\Edit.resx">
       <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Transaksi.resx">
+      <DependentUpon>Transaksi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,10 +113,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Index.resx">
+    <EmbeddedResource Include="Form\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Register.resx">
+    <EmbeddedResource Include="Form\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
