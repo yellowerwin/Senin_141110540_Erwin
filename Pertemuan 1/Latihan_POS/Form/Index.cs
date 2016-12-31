@@ -52,6 +52,7 @@ namespace Latihan_POS
         {
             this.Dispose();
             this.Close();
+            Application.Exit();
         }
 
         

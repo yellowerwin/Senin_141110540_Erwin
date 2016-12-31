@@ -49,6 +49,12 @@ namespace Latihan_POS
 
             Supplier supplier = new Supplier();
             dataGridViewSupplier.DataSource = supplier.DisplayBarang();
+
+            Pembelian pembelian = new Pembelian();
+            dataGridViewPembelian.DataSource = pembelian.DisplayBarang();
+
+            Penjualan penjualan = new Penjualan();
+            dataGridViewPenjualan.DataSource = penjualan.DisplayBarang();
         }
 
         private void tabPagePenjualan_Click(object sender, EventArgs e)

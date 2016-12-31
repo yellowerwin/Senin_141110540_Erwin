@@ -88,8 +88,8 @@
     <Compile Include="Form\Index.Designer.cs">
       <DependentUpon>Index.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pembelian.cs" />
-    <Compile Include="Penjualan.cs" />
+    <Compile Include="Class\Pembelian.cs" />
+    <Compile Include="Class\Penjualan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form\Delete.resx">

@@ -74,10 +74,42 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.tabPagePenjualan = new System.Windows.Forms.TabPage();
+            this.txtIdCustomerPenjualan = new System.Windows.Forms.TextBox();
+            this.txtIdBarangPenjualan = new System.Windows.Forms.TextBox();
+            this.txtTotalHargaPenjualan = new System.Windows.Forms.TextBox();
+            this.txtKuantitasPenjualan = new System.Windows.Forms.TextBox();
+            this.txtHargaBarangPenjualan = new System.Windows.Forms.TextBox();
+            this.txtKodePenjualan = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.btnBatalPenjualan = new System.Windows.Forms.Button();
+            this.btnUpdatePenjualan = new System.Windows.Forms.Button();
+            this.tabPagePembelian = new System.Windows.Forms.TabPage();
+            this.btnBatalPembelian = new System.Windows.Forms.Button();
+            this.btnUpdatePembelian = new System.Windows.Forms.Button();
+            this.txtIdSupplierPembelian = new System.Windows.Forms.TextBox();
+            this.txtIdBarangPembelian = new System.Windows.Forms.TextBox();
+            this.txtTotalHargaPembelian = new System.Windows.Forms.TextBox();
+            this.txtKuantitasPembelian = new System.Windows.Forms.TextBox();
+            this.txtHargaBarangPembelian = new System.Windows.Forms.TextBox();
+            this.txtKodePembelian = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.tabPageEdit.SuspendLayout();
             this.tabPageBarang.SuspendLayout();
             this.tabPageCustomer.SuspendLayout();
             this.tabPageSupplier.SuspendLayout();
+            this.tabPagePenjualan.SuspendLayout();
+            this.tabPagePembelian.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabPageEdit
@@ -85,6 +117,8 @@
             this.tabPageEdit.Controls.Add(this.tabPageBarang);
             this.tabPageEdit.Controls.Add(this.tabPageCustomer);
             this.tabPageEdit.Controls.Add(this.tabPageSupplier);
+            this.tabPageEdit.Controls.Add(this.tabPagePenjualan);
+            this.tabPageEdit.Controls.Add(this.tabPagePembelian);
             this.tabPageEdit.Font = new System.Drawing.Font("News701 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPageEdit.Location = new System.Drawing.Point(13, 12);
             this.tabPageEdit.Name = "tabPageEdit";
@@ -512,6 +546,286 @@
             this.label18.TabIndex = 12;
             this.label18.Text = "ID";
             // 
+            // tabPagePenjualan
+            // 
+            this.tabPagePenjualan.Controls.Add(this.txtIdCustomerPenjualan);
+            this.tabPagePenjualan.Controls.Add(this.txtIdBarangPenjualan);
+            this.tabPagePenjualan.Controls.Add(this.txtTotalHargaPenjualan);
+            this.tabPagePenjualan.Controls.Add(this.txtKuantitasPenjualan);
+            this.tabPagePenjualan.Controls.Add(this.txtHargaBarangPenjualan);
+            this.tabPagePenjualan.Controls.Add(this.txtKodePenjualan);
+            this.tabPagePenjualan.Controls.Add(this.label25);
+            this.tabPagePenjualan.Controls.Add(this.label26);
+            this.tabPagePenjualan.Controls.Add(this.label27);
+            this.tabPagePenjualan.Controls.Add(this.label28);
+            this.tabPagePenjualan.Controls.Add(this.label29);
+            this.tabPagePenjualan.Controls.Add(this.label30);
+            this.tabPagePenjualan.Controls.Add(this.btnBatalPenjualan);
+            this.tabPagePenjualan.Controls.Add(this.btnUpdatePenjualan);
+            this.tabPagePenjualan.Location = new System.Drawing.Point(4, 23);
+            this.tabPagePenjualan.Name = "tabPagePenjualan";
+            this.tabPagePenjualan.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPagePenjualan.Size = new System.Drawing.Size(449, 247);
+            this.tabPagePenjualan.TabIndex = 3;
+            this.tabPagePenjualan.Text = "Penjualan";
+            this.tabPagePenjualan.UseVisualStyleBackColor = true;
+            // 
+            // txtIdCustomerPenjualan
+            // 
+            this.txtIdCustomerPenjualan.Location = new System.Drawing.Point(123, 39);
+            this.txtIdCustomerPenjualan.Name = "txtIdCustomerPenjualan";
+            this.txtIdCustomerPenjualan.Size = new System.Drawing.Size(212, 21);
+            this.txtIdCustomerPenjualan.TabIndex = 36;
+            // 
+            // txtIdBarangPenjualan
+            // 
+            this.txtIdBarangPenjualan.Location = new System.Drawing.Point(123, 64);
+            this.txtIdBarangPenjualan.Name = "txtIdBarangPenjualan";
+            this.txtIdBarangPenjualan.Size = new System.Drawing.Size(212, 21);
+            this.txtIdBarangPenjualan.TabIndex = 37;
+            // 
+            // txtTotalHargaPenjualan
+            // 
+            this.txtTotalHargaPenjualan.Location = new System.Drawing.Point(123, 145);
+            this.txtTotalHargaPenjualan.Name = "txtTotalHargaPenjualan";
+            this.txtTotalHargaPenjualan.Size = new System.Drawing.Size(212, 21);
+            this.txtTotalHargaPenjualan.TabIndex = 40;
+            // 
+            // txtKuantitasPenjualan
+            // 
+            this.txtKuantitasPenjualan.Location = new System.Drawing.Point(123, 119);
+            this.txtKuantitasPenjualan.Name = "txtKuantitasPenjualan";
+            this.txtKuantitasPenjualan.Size = new System.Drawing.Size(212, 21);
+            this.txtKuantitasPenjualan.TabIndex = 39;
+            // 
+            // txtHargaBarangPenjualan
+            // 
+            this.txtHargaBarangPenjualan.Location = new System.Drawing.Point(123, 90);
+            this.txtHargaBarangPenjualan.Name = "txtHargaBarangPenjualan";
+            this.txtHargaBarangPenjualan.Size = new System.Drawing.Size(212, 21);
+            this.txtHargaBarangPenjualan.TabIndex = 38;
+            // 
+            // txtKodePenjualan
+            // 
+            this.txtKodePenjualan.Location = new System.Drawing.Point(123, 15);
+            this.txtKodePenjualan.Name = "txtKodePenjualan";
+            this.txtKodePenjualan.Size = new System.Drawing.Size(212, 21);
+            this.txtKodePenjualan.TabIndex = 35;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(19, 126);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(64, 14);
+            this.label25.TabIndex = 34;
+            this.label25.Text = "Kuantitas";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(19, 152);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(77, 14);
+            this.label26.TabIndex = 33;
+            this.label26.Text = "Total Harga";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(19, 97);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(86, 14);
+            this.label27.TabIndex = 32;
+            this.label27.Text = "Harga Barang";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(19, 46);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(80, 14);
+            this.label28.TabIndex = 31;
+            this.label28.Text = "ID Customer";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(19, 71);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(65, 14);
+            this.label29.TabIndex = 30;
+            this.label29.Text = "ID Barang";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(19, 22);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(36, 14);
+            this.label30.TabIndex = 29;
+            this.label30.Text = "Kode";
+            // 
+            // btnBatalPenjualan
+            // 
+            this.btnBatalPenjualan.Location = new System.Drawing.Point(356, 209);
+            this.btnBatalPenjualan.Name = "btnBatalPenjualan";
+            this.btnBatalPenjualan.Size = new System.Drawing.Size(75, 23);
+            this.btnBatalPenjualan.TabIndex = 17;
+            this.btnBatalPenjualan.Text = "Batal";
+            this.btnBatalPenjualan.UseVisualStyleBackColor = true;
+            this.btnBatalPenjualan.Click += new System.EventHandler(this.btnBatalPenjualan_Click);
+            // 
+            // btnUpdatePenjualan
+            // 
+            this.btnUpdatePenjualan.Location = new System.Drawing.Point(275, 209);
+            this.btnUpdatePenjualan.Name = "btnUpdatePenjualan";
+            this.btnUpdatePenjualan.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdatePenjualan.TabIndex = 16;
+            this.btnUpdatePenjualan.Text = "Update";
+            this.btnUpdatePenjualan.UseVisualStyleBackColor = true;
+            this.btnUpdatePenjualan.Click += new System.EventHandler(this.btnUpdatePenjualan_Click);
+            // 
+            // tabPagePembelian
+            // 
+            this.tabPagePembelian.Controls.Add(this.btnBatalPembelian);
+            this.tabPagePembelian.Controls.Add(this.btnUpdatePembelian);
+            this.tabPagePembelian.Controls.Add(this.txtIdSupplierPembelian);
+            this.tabPagePembelian.Controls.Add(this.txtIdBarangPembelian);
+            this.tabPagePembelian.Controls.Add(this.txtTotalHargaPembelian);
+            this.tabPagePembelian.Controls.Add(this.txtKuantitasPembelian);
+            this.tabPagePembelian.Controls.Add(this.txtHargaBarangPembelian);
+            this.tabPagePembelian.Controls.Add(this.txtKodePembelian);
+            this.tabPagePembelian.Controls.Add(this.label19);
+            this.tabPagePembelian.Controls.Add(this.label20);
+            this.tabPagePembelian.Controls.Add(this.label21);
+            this.tabPagePembelian.Controls.Add(this.label22);
+            this.tabPagePembelian.Controls.Add(this.label23);
+            this.tabPagePembelian.Controls.Add(this.label24);
+            this.tabPagePembelian.Location = new System.Drawing.Point(4, 23);
+            this.tabPagePembelian.Name = "tabPagePembelian";
+            this.tabPagePembelian.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPagePembelian.Size = new System.Drawing.Size(449, 247);
+            this.tabPagePembelian.TabIndex = 4;
+            this.tabPagePembelian.Text = "Pembelian";
+            this.tabPagePembelian.UseVisualStyleBackColor = true;
+            // 
+            // btnBatalPembelian
+            // 
+            this.btnBatalPembelian.Location = new System.Drawing.Point(354, 208);
+            this.btnBatalPembelian.Name = "btnBatalPembelian";
+            this.btnBatalPembelian.Size = new System.Drawing.Size(75, 23);
+            this.btnBatalPembelian.TabIndex = 34;
+            this.btnBatalPembelian.Text = "Batal";
+            this.btnBatalPembelian.UseVisualStyleBackColor = true;
+            this.btnBatalPembelian.Click += new System.EventHandler(this.btnBatalPembelian_Click);
+            // 
+            // btnUpdatePembelian
+            // 
+            this.btnUpdatePembelian.Location = new System.Drawing.Point(273, 208);
+            this.btnUpdatePembelian.Name = "btnUpdatePembelian";
+            this.btnUpdatePembelian.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdatePembelian.TabIndex = 33;
+            this.btnUpdatePembelian.Text = "Update";
+            this.btnUpdatePembelian.UseVisualStyleBackColor = true;
+            this.btnUpdatePembelian.Click += new System.EventHandler(this.btnUpdatePembelian_Click);
+            // 
+            // txtIdSupplierPembelian
+            // 
+            this.txtIdSupplierPembelian.Location = new System.Drawing.Point(122, 40);
+            this.txtIdSupplierPembelian.Name = "txtIdSupplierPembelian";
+            this.txtIdSupplierPembelian.Size = new System.Drawing.Size(212, 21);
+            this.txtIdSupplierPembelian.TabIndex = 24;
+            // 
+            // txtIdBarangPembelian
+            // 
+            this.txtIdBarangPembelian.Location = new System.Drawing.Point(122, 65);
+            this.txtIdBarangPembelian.Name = "txtIdBarangPembelian";
+            this.txtIdBarangPembelian.Size = new System.Drawing.Size(212, 21);
+            this.txtIdBarangPembelian.TabIndex = 26;
+            // 
+            // txtTotalHargaPembelian
+            // 
+            this.txtTotalHargaPembelian.Location = new System.Drawing.Point(122, 146);
+            this.txtTotalHargaPembelian.Name = "txtTotalHargaPembelian";
+            this.txtTotalHargaPembelian.Size = new System.Drawing.Size(212, 21);
+            this.txtTotalHargaPembelian.TabIndex = 32;
+            // 
+            // txtKuantitasPembelian
+            // 
+            this.txtKuantitasPembelian.Location = new System.Drawing.Point(122, 120);
+            this.txtKuantitasPembelian.Name = "txtKuantitasPembelian";
+            this.txtKuantitasPembelian.Size = new System.Drawing.Size(212, 21);
+            this.txtKuantitasPembelian.TabIndex = 30;
+            // 
+            // txtHargaBarangPembelian
+            // 
+            this.txtHargaBarangPembelian.Location = new System.Drawing.Point(122, 91);
+            this.txtHargaBarangPembelian.Name = "txtHargaBarangPembelian";
+            this.txtHargaBarangPembelian.Size = new System.Drawing.Size(212, 21);
+            this.txtHargaBarangPembelian.TabIndex = 28;
+            // 
+            // txtKodePembelian
+            // 
+            this.txtKodePembelian.Location = new System.Drawing.Point(122, 16);
+            this.txtKodePembelian.Name = "txtKodePembelian";
+            this.txtKodePembelian.Size = new System.Drawing.Size(212, 21);
+            this.txtKodePembelian.TabIndex = 22;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(18, 127);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(64, 14);
+            this.label19.TabIndex = 31;
+            this.label19.Text = "Kuantitas";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(18, 153);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(77, 14);
+            this.label20.TabIndex = 29;
+            this.label20.Text = "Total Harga";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(18, 98);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(86, 14);
+            this.label21.TabIndex = 27;
+            this.label21.Text = "Harga Barang";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(18, 47);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(72, 14);
+            this.label22.TabIndex = 25;
+            this.label22.Text = "ID Supplier";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(18, 72);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(65, 14);
+            this.label23.TabIndex = 23;
+            this.label23.Text = "ID Barang";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(18, 23);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(36, 14);
+            this.label24.TabIndex = 21;
+            this.label24.Text = "Kode";
+            // 
             // Edit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -530,6 +844,10 @@
             this.tabPageCustomer.PerformLayout();
             this.tabPageSupplier.ResumeLayout(false);
             this.tabPageSupplier.PerformLayout();
+            this.tabPagePenjualan.ResumeLayout(false);
+            this.tabPagePenjualan.PerformLayout();
+            this.tabPagePembelian.ResumeLayout(false);
+            this.tabPagePembelian.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -582,5 +900,35 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TabPage tabPagePenjualan;
+        private System.Windows.Forms.TabPage tabPagePembelian;
+        private System.Windows.Forms.Button btnBatalPenjualan;
+        private System.Windows.Forms.Button btnUpdatePenjualan;
+        private System.Windows.Forms.Button btnBatalPembelian;
+        private System.Windows.Forms.Button btnUpdatePembelian;
+        private System.Windows.Forms.TextBox txtIdSupplierPembelian;
+        private System.Windows.Forms.TextBox txtIdBarangPembelian;
+        private System.Windows.Forms.TextBox txtTotalHargaPembelian;
+        private System.Windows.Forms.TextBox txtKuantitasPembelian;
+        private System.Windows.Forms.TextBox txtHargaBarangPembelian;
+        private System.Windows.Forms.TextBox txtKodePembelian;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox txtIdCustomerPenjualan;
+        private System.Windows.Forms.TextBox txtIdBarangPenjualan;
+        private System.Windows.Forms.TextBox txtTotalHargaPenjualan;
+        private System.Windows.Forms.TextBox txtKuantitasPenjualan;
+        private System.Windows.Forms.TextBox txtHargaBarangPenjualan;
+        private System.Windows.Forms.TextBox txtKodePenjualan;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
     }
 }

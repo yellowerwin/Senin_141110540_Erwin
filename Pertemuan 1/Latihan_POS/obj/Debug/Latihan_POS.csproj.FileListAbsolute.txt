@@ -31,3 +31,4 @@ Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_POS\o
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_POS\obj\Debug\Latihan_POS.Delete.resources
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_POS\obj\Debug\Latihan_POS.Edit.resources
 Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_POS\obj\Debug\Latihan_POS.List.resources
+Z:\Skills\Semester V\Pemograman Framework NET Lanjutan\Pertemuan 1\Latihan_POS\obj\Debug\Latihan_POS.Transaksi.resources

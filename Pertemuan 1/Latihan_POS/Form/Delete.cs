@@ -92,5 +92,51 @@ namespace Latihan_POS
                 MessageBox.Show("Error");
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenForm(new Index());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenForm(new Index());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Pembelian beli = new Pembelian();
+
+            try
+            {
+                beli.setKode(txtKodePembelian.Text);
+
+                beli.Delete();
+                MessageBox.Show("Deleted Kode =" + beli.getKode());
+                OpenForm(new Index());
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Penjualan jual = new Penjualan();
+
+            try
+            {
+                jual.setKode(txtKodePenjualan.Text);
+
+                jual.Delete();
+                MessageBox.Show("Deleted Kode =" + jual.getKode());
+                OpenForm(new Index());
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error");
+            }
+        }
     }
 }
